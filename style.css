@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 :root {
-    --main-color: rgb(171, 180, 78);
+    --main-color: rgb(172, 180, 80);
     --primary-bg-color: #fff;
     --secondary-bg-color: #eee;
     --primary-text-color: #222;
@@ -194,6 +194,13 @@ section {
     flex-wrap: wrap;
 }
 
+/* Stars */
+
+.checked {
+    color: rgb(172, 180, 80);
+    
+  }
+
 .home .image {
     flex: 1 1 40rem;
     padding: 1rem;
@@ -280,11 +287,16 @@ section {
     margin: 1.5rem;
 }
 
+
 .about .row .box .tittle {
     color: var(--primary-text-color);
     font-size: 2.5rem;
     padding: 1rem 0;
 }
+.progress .skills{
+    display: inline-block;
+    vertical-align: top;
+  }
 
 .about .row .box .progress {
     padding: 1rem 0;

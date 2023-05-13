@@ -51,7 +51,7 @@ var typed = new Typed(".typing", {
     strings: [
         "<span style='color:crimson;'>Web Developer </span>",
         "<span style='color:#00a8ff;'>Front-End Developer </span>",
-        "<span style='color:#00b894;'>Backe-End Developer</span>",
+        "<span style='color:#00b894;'>Back-End Developer</span>",
     ],
     typeSpeed: 100,
     backSpeed: 60,
